@@ -132,10 +132,8 @@ DROP COLUMN row_num;
 
 
 
-------------------------------------------- Exploratory DAta --------------------------
-SELECT *
-FROM layoffs;
-
+------------------------------------------- Exploratory Data --------------------------
+-- View maximums for layoffs
 SELECT MAX(total_laid_off) , MAX(percentage_laid_off), MAX(funds_raised_millions)
 FROM layoffs;
 
